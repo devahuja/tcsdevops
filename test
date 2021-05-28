@@ -1,0 +1,1 @@
+wget http://kmaster:8080/jnlpJars/agent.jar  25 ls -lrth  26 chmod 777 agent.jar   28 java -jar agent.jar -jnlpUrl http://kmaster:8080/computer/jenkins_slave1/jenkins-agent.jnlp -secret d98addbb354b8e517f4208ac9eb7e08e2b1ba98060f4fea5a30be92249643b7a -workDir "/var/lib/jenkins"
